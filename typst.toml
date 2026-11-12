@@ -1,4 +1,4 @@
 [package]
 name = "math-templates"
 version = "1.0.0"
-entrypoint = "template.typ"
+entrypoint = "lib.typ"

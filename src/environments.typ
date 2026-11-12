@@ -1,4 +1,11 @@
-#import "template-utils.typ": temp-block
+#let temp-block(uid: "", pre-title: "", title: "", num: false, content) = [
+  #metadata((kind: "uni-template.temp-block", title: title, pre-title: pre-title, uid: uid, num: num))
+  #content
+]
+
+#let section(title) = metadata((kind: "uni-template.section", title: title))
+
+#let subsection(title) = metadata((kind: "uni-template.subsection", title: title))
 
 #let prop(title, uid: "", c) = temp-block(pre-title: "Satz", title: title,uid: uid, c)
 #let lem(title,uid: "", c) = temp-block(pre-title: "Lemma", title: title,uid: uid, c)
