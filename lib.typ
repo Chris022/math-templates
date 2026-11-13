@@ -1,6 +1,6 @@
-#import "/src/templates/note.typ":*
-#import "src/templates/compact-script.typ":*
-#import "src/templates/flash-cards.typ":*
-#import "src/templates/homework.typ":*
-#import "src/math-utils.typ":*
-#import "src/environments.typ": *
+#import "src_old/templates/note.typ":*
+#import "src_old/templates/compact-script.typ":*
+#import "src_old/templates/flash-cards.typ":*
+#import "src_old/templates/homework.typ":*
+#import "src_old/math-utils.typ":*
+#import "src_old/environments.typ": *
